@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>--下拉菜单--</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div class="resize" id="resize"></div>
+	
+
+	<div class="select1">
+		<span class="triangle1">∨</span>
+		<div class="option1 option">walk</div>
+		<div class="option1 option">bike</div>
+		<div class="option1 option">subway</div>		
+	</div>
+
+	<div class="select2">
+		<span class="triangle2">∨</span>
+		<div class="option2 option">car</div>
+		<div class="option2 option">plane</div>
+		<div class="option2 option">ship</div>		
+	</div>
+
+	<div class="date" id="date"></div>
+</body>
+<script src="jquery-2.1.4.min.js"></script>
+<script src="index.js"></script>
+<script type="text/javascript">
+	
+function time() {
+	var date = new Date();
+
+	var weekday=new Array(7)
+	weekday[0]="星期日";
+	weekday[1]="星期一";
+	weekday[2]="星期二";
+	weekday[3]="星期三";
+	weekday[4]="星期四";
+	weekday[5]="星期五";
+	weekday[6]="星期六";
+
+	var y = date.getYear();
+	y = 1900 + y;
+	var mon = date.getMonth();
+	mon = mon + 1;
+ 	var d = date.getDate();
+	var w = date.getDay();
+	var h = date.getHours();
+	var m = date.getMinutes();
+	var s = date.getSeconds();
+	h = checkTime(h);
+	m = checkTime(m);
+	s = checkTime(s);
+
+
+	document.getElementById('date').innerHTML = '现在是' + y + '年' + mon + '月' + d + '日' + weekday[w] + h + ':' + m + ':' + s;
+
+}
+
+setInterval('time()',300);
+
+function checkTime(i)
+{
+if (i<10) 
+  {i="0" + i;}
+  return i;
+}
+</script>
+</html>
