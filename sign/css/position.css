@@ -1,0 +1,302 @@
+body
+{
+	margin: 0px;
+	border:0px;
+}
+
+span 
+{
+	display: block;
+}
+
+ul
+{
+	padding:0px;
+}
+
+button
+{
+	border:0px;
+}
+
+.topbar
+{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width:100%;
+	height: 48px;
+	box-sizing:border-box;
+}
+
+
+/*灰色弹窗*/
+.listwarning
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 272px;
+	height: 32px;
+  	line-height: 32px;
+  	vertical-align: middle;
+	margin: auto;
+	text-align: center;
+	z-index: 100;
+	box-sizing:border-box;
+}
+.subwarning {
+	position: absolute;
+	display: none;
+	left: 0;
+	right: 0;
+	width: 272px;
+	height: 32px;
+  	line-height: 32px;
+  	vertical-align: middle;
+	margin: auto;
+	text-align: center;
+	z-index: 100;
+	box-sizing:border-box;
+}
+.loadwarning {
+	position: absolute;
+	display: none;
+	left: 0;
+	right: 0;
+	width: 272px;
+	height: 32px;
+  	line-height: 32px;
+  	vertical-align: middle;
+	margin: auto;
+	text-align: center;
+	z-index: 100;
+	box-sizing:border-box;
+}
+/*登录页面*/
+.logo
+{	
+	z-index: 0;
+	position: relative;
+	top: 48px;
+	bottom: 48px;
+	width: 88px;
+	height: 88px;
+	margin:auto;
+	border-radius:50%;
+}
+
+.inputform
+{
+	width: 256px;
+	margin:auto;
+}
+
+.input
+{
+	position: relative;
+	top: 96px;
+	bottom: 32px;
+	width: 256px;
+	height: 96px;
+}
+
+.id,.password
+{
+	width: 256px;
+	height: 48px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 16px;
+	padding-right: 16px;
+	box-sizing:border-box;
+}
+
+.inputhr
+{
+	width: 256px;
+	height: 1px;
+	margin: 0px;
+	border: 0px;
+	box-sizing:border-box;
+}
+
+.load
+{
+	position: relative;
+	top: 128px;
+	width: 256px;
+	height: 40px;
+	margin: auto;
+}
+.loading {
+	position: relative;
+	top: 128px;
+	width: 256px;
+	height: 40px;
+	margin: auto;
+}
+.loadwarning
+{
+	top: 128px;
+}
+
+/* 摆摊列表*/
+.topbartitle
+{
+	padding-left: 32px;
+	padding-top: 16px;
+}
+
+.list
+{
+	width: 100%;
+	margin: 0px;
+	box-sizing:border-box;
+}
+
+.item
+{
+	height: 64px;
+	border:0px;
+	box-sizing:border-box;
+}
+
+.itemtime
+{
+	height: 32px;
+	padding-top: 16px;
+	padding-left: 32px;
+	box-sizing:border-box;
+}
+
+.itemactivity
+{
+	height: 32px;
+	padding-left: 32px;
+	box-sizing:border-box;
+}
+
+.listwarning,.subwarning
+{
+	top: 68px;
+}
+
+/*子活动*/
+.return
+{
+	display:block;
+	float: left;
+	width: 48px;
+	height: 48px;
+}
+
+.title
+{
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.cardlist
+{
+	width: 304px;
+	margin:auto;
+}
+
+.card
+{
+	width: 100%;
+	height: 80px;
+	margin-top:8px;
+	box-sizing:border-box;
+}
+
+.info
+{
+	float: left;
+	width:224px;
+	height: 100%;
+	padding-top: 8px;
+  	box-sizing: border-box;
+}
+
+.name,.tel,.department
+{
+	padding-left: 24px;
+	padding-bottom: 4px;
+}
+
+.signaction
+{
+	float: left;
+	margin-top: 8px;
+	box-sizing: border-box;
+}
+
+.sign,.replace
+{
+	width: 64px;
+  	height: 32px;
+  	line-height: 32px;
+  	text-align: center;
+  	overflow: hidden;
+  	box-sizing: border-box;
+}
+
+
+.replacer
+{
+	position: absolute;
+	display: none;
+	width: 256px;
+	height: 128px;
+	top: 120px;
+	left: 0;
+	right: 0;
+	margin:auto;
+	box-sizing: border-box;
+	z-index:100;
+}
+
+.replacetitle
+{
+	height: 24px;
+	margin-top: 16px;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+.relaceinput
+{
+	width: 232px;
+}
+
+.studentid
+{
+	display: block;
+	width: 224px;
+	height: 32px;
+	margin-left: 16px;
+	margin-right: 16px;
+	padding-left: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	box-sizing:border-box;
+}
+
+.replacersign,.cancel
+{
+	float: right;
+	width: 64px;
+  	height: 32px;
+  	line-height: 32px;
+  	overflow: hidden;
+  	margin-top: 16px;
+  	text-align: center;
+  	box-sizing: border-box;
+}
+
+.replacersign
+{
+	margin-right: 16px;
+}

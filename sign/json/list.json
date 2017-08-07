@@ -1,0 +1,20 @@
+{
+	"code" : 1 ,
+	"detail" : [
+		{"stuid" : "test1   ",
+		"subtime" : "  2015.11.12",
+		"name" : "AAA"	
+		},
+		
+		{"stuid" : "test2   ",
+		"subtime" : "  2015.11.12",
+		"name" : "BBB"	
+		},
+		{"stuid" : "test3   ",
+		"subtime" : "  2015.11.12",
+		"name" : "CCC"	
+		}	
+
+		
+]
+}

@@ -1,0 +1,37 @@
+.topbar,.logo
+{
+	background-color:#558b2f;
+}
+
+/*字体主题色*/
+.colormain
+{
+	color: rgba(51,105,30,0.87);
+}
+
+.colorsecondary
+{
+	color: rgba(51,105,30,0.54);
+}
+
+.load
+{
+	background-color: #689f38;
+}
+
+/*登录页面 登录按钮按下后 "登录中"*/
+.loading
+{
+	background-color: #36912e;
+}
+
+.studentid:focus
+{
+	border-bottom: 1px solid #558b2f;
+}
+
+/*子活动 填写代替者的弹窗的取消or代替点击时*/
+.cancelonclick,.replaceonclick
+{
+	background-color: #558b2f;
+}

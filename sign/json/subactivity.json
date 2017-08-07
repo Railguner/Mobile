@@ -1,0 +1,19 @@
+{
+	"code" : "1",
+
+	"student" : [
+
+	{"id" : "123",
+	"state" : true,	
+	"name" : "test 1",
+	"tel" : "123456",
+	"depart" : "jishubu"},
+
+	{"id" : "456",
+	"state" : false,	
+	"name" : "test 2",
+	"tel" : "123456",
+	"depart" : "jishubu"}
+
+	]
+}
