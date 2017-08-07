@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-decoration: none;
+	outline: none;
+	font-family: Microsoft YaHei,Heiti SC,RoBoto,Noto;
+
+}
+body {
+	background-color: #f9f9f9;
+	padding-top: 0.1px;
+}
+form {
+	padding-top: 40px;
+}
+.left {
+	width: 45%;
+	display: block;
+	z-index: -1;
+}
+.input {
+	border-bottom: 1px solid rgba(0,0,0,0.12);
+	width: 82%;
+	height: 42px;
+}
+::-webkit-input-placeholder {
+	color: rgba(0,0,0,0.30);
+}
+::-moz-input-placeholder { 
+	color: rgba(0,0,0,0.30); 
+} 
+.code {
+	height: 42px;
+	width: 220.4px;
+	font-size: 18px;
+	line-height: 18px;
+	background-color: transparent;
+	vertical-align: middle;
+	color: rgba(0,0,0,0.87);
+}
+.touch {
+	width: 42px;
+	height: 42px;
+	background-image: url(../IMG/reset.png);
+	background-repeat: no-repeat;
+	background-size: 14px 14px;
+	background-position: center;
+	opacity: 0.30;
+}
+.btn {
+	height: 40px;
+}
+button {
+	width: 84px;
+	border:none;
+	background-color: transparent;
+}
+.button {
+	width: 24px;
+}
+.receive {
+	color: #1c50a0;
+	font-size: 18px;
+	opacity: 0.72;
+}
+.re_name {
+	width: 82%;
+	height: 18px;
+}
+.tips{
+	width: 50px;
+	font-size: 18px;
+	line-height: 18px;
+	vertical-align: middle;
+	color: rgba(0,0,0,0.54);
+}
+.who {
+	font-size: 18px;
+	line-height: 18px;
+	vertical-align: middle;
+	color: rgba(0, 0, 0, 0.87);
+}
+.po_name {
+	width: 82%;
+	height: 18px;
+}
+.note {
+	width: 82%;
+	font-size: 16px;
+	line-height: 18px;
+	vertical-align: middle;
+	color: rgba(0,0,0,0.76);
+	text-align: justify;
+}
+footer {
+	text-align: center;
+	color: rgba(0,0,0,0.30);
+	font-size: 12px;
+}
+.right {
+	width: 45%;
+	display: block;
+	z-index: -1;
+}
+#reset {
+	display: none;
+}

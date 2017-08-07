@@ -1,0 +1,92 @@
+html {
+	height: 100%;
+}
+body {
+	position: relative;
+}
+.logo {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.54;
+}
+.left {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.input {
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+.code {
+	position: relative;
+	float: left;
+}
+.touch {
+	display: inline-block;
+	float: right;
+	display: none;
+}
+.btn {
+	float: right;
+	margin-top: 8px;
+	margin-right: 9%;
+}
+.button {
+  	text-align: text-bottom;
+  	margin-left: 2.4%;
+  	margin-right: 2.4%;
+  	vertical-align: top;
+ }
+.receive {
+	margin-right: 2.4%;
+}
+.re_name {
+	position: relative;
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-bottom: 16px;
+	padding-left: 2.4%;
+	opacity: 0;
+}
+.tips{
+	margin-right: 2.4%;
+	display: inline-block;
+}
+.who {
+	display: inline;
+}
+.po_name {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-bottom: 24px;
+	padding-left: 2.4%;
+	opacity: 0;
+}
+.note {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 2.4%;
+	padding-right: 2.4%;
+	padding-bottom: 80px;
+	opacity: 0;
+}
+footer {
+	position: absolute;
+	width: 100%;
+	bottom: 24px;
+}
+.right {
+	position: absolute;
+	bottom: 0;
+	right: 0; 
+}

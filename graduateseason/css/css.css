@@ -1,0 +1,196 @@
+html
+{
+	height:100%;
+
+}
+body
+{
+	height:92%;
+	font-family:"Microsoft Yahei";
+
+}
+.imgleft
+{
+	position: fixed;
+	width:13em;
+	top:0;
+	left:0;
+
+	z-index:-5;
+}
+
+.imgright
+{
+
+	position:fixed;
+	width:13em;
+	right:0;
+	bottom:0;
+	z-index:-5;
+
+}
+#name {
+padding-bottom:1rem;
+}
+.container
+{
+
+	width:90%;
+	height:100%;
+	margin:0 auto;
+
+	
+	
+}
+.form
+{
+	height:70%;
+}
+form
+{
+	height:100%;
+}
+input
+{
+
+	margin:0 auto;
+	outline:none;
+	text-indent:1em;
+    color:rgba(0, 0, 0, 0.76);
+
+
+}
+textarea
+{
+	width:90%;
+	margin:auto;
+	margin-bottom:0.5em;
+	height:60%;
+	text-indent:1em;
+	outline:none;
+    resize:none;
+    color:rgba(0, 0, 0, 0.76);
+ 
+
+}
+.receive
+{
+	position:relative;
+	width:100%;
+	margin-top:1em;
+	font-size:1.05em;
+	color:rgba(0, 0, 0, 0.76);
+	background-color: transparent;
+	border:none;
+	border-bottom:1px solid rgba(0, 0, 0, 0.26);
+	font-family:"Microsoft Yahei";
+}
+-webkit-input-placeholder 
+{
+	text-indent:1em;
+	font-size:1.05em
+	font-family:"Microsoft Yahei";
+    color:rgba(0, 0, 0, 0.26);
+}
+-moz-input-placeholder
+{
+	text-indent:1em;
+	font-size:1.05em;
+    color:rgba(0, 0, 0, 0.26);
+}
+.connect
+{
+	width:100%;
+	text-indent:1em;
+	margin-bottom:0.5em;;
+	height:2em;
+	font-size:1.2em;
+	color:rgba(0, 0, 0, 0.76);
+	background-color: rgba(103,210,224,0.62);
+	border:none;
+    font-weight:lighter;
+	font-family:"Microsoft Yahei";
+}
+span
+{
+	margin-left:1em;
+
+}
+.tabs
+{
+	float:left;
+	width:4em;
+	font-size:1.05rem;
+	height:2em;
+	line-height:2.2em;
+	margin-right:0.3em;
+	display:block;
+	position:relative;
+	background-color: rgba(103,210,224,0.62);
+	color:rgba(0,0,0,0.56);
+}
+.tabs.halfYear
+{
+		background-color:  rgba(74,152,175,0.62);
+   		color:rgba(255,255,255,0.56);
+
+}
+.tabs.oneYear
+{
+		background-color:  rgba(74,152,175,0.62);
+    	color:rgba(255,255,255,0.56);
+}
+.hide
+{
+	display:none;
+}
+.button
+{
+	position: absolute;
+	right: 1em;
+	height: 2.5em;
+	border: none;
+	background-color: transparent;
+	z-index: 10;
+	width: 99px;
+}
+.btnimg
+{
+	float:left;
+	margin-right:0.5em;
+	width:2.3em;
+	height:2.3em;
+    z-index:10;
+}
+.btn
+{
+	position:relative;
+	float:left;
+	margin-left:0em;
+	font-size:1.05rem;
+    line-height:0.9em;
+    margin-top:0.4rem;
+	font-family:"Microsoft Yahei";
+	color:rgba(28,80,120,0.76);
+}
+.finnal
+{
+	position:absolute;
+	width:15em;
+	bottom:0;
+	right:0;
+
+}
+.footer
+{	margin-top:100px;
+	font-size:0.5rem;
+	text-align:center;
+	color:rgba(0,0,0,0.46);
+	font-family:"Microsoft Yahei";
+}
+.required {
+	border-bottom: 1px solid #F00;
+}
+.requiredbox {
+	border: 1px solid #F00;
+}

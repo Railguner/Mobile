@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+.op{
+	position:absolute;
+	width:100%;
+	top:0;
+}
+.logo{
+	display:block;
+	position:relative;
+	width:80%;
+	margin:auto;
+	margin-top:5.5rem;
+
+
+}
+.icon{
+	display:block;
+	position:relative;
+	width:18%;
+	margin:auto;
+	margin-top:1.2rem;
+	transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-webkit-animation:rotate1;
+	-webkit-animation-duration:5s;
+	-webkit-animation-iteration-count:infinite;
+	animation:rotate1;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+}
+@-webkit-keyframes rotate1{
+	17%{-webkit-transform: rotate(246deg);}
+	34%{-webkit-transform: rotate(127deg);}
+	55%{-webkit-transform: rotate(210deg);}
+	100%{-webkit-transform: rotate(0deg);}
+}
+@keyframes rotate1{
+	27%{transform: rotate(246deg);}
+	53%{transform: rotate(127deg);}
+	82%{transform: rotate(210deg);}
+	100%{transform: rotate(0deg);}
+}
+.theme{
+	display:block;
+	margin-top:2rem;
+	text-align:center;
+	font-family:'Microsoft YaHei','Heiti SC','RoBoto','Noto';
+	font-size:1.2em;
+	color:#72c8e8;
+
+}
